@@ -1,0 +1,47 @@
+.LeftSideMoleculDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.LeftSideMoleculDiv img{
+    position: absolute;
+}
+.Desktop{
+    margin-left: -25px;
+    
+}
+.RESDesktop{
+    display: none;
+    position: absolute;
+}
+.DesktopBox{
+    margin-left: -90px;
+    margin-top: 95px;
+}
+.DesktopShadow{
+    margin-top: 140px;
+    margin-left: -25px;
+}
+@media screen and (max-width: 1021px){
+    .Desktop{
+        display: none;
+    }
+    .DesktopBox{
+        display: none;
+    }
+    .DesktopShadow{
+        display: none;
+    }
+    .RESDesktop{
+        display: block;
+        margin-left: -25px;
+        margin-top: -110px;
+    }
+    .LeftSideMoleculDiv{
+        justify-content: center;
+        height: 100px;
+    }
+    
+}

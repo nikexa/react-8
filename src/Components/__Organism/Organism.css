@@ -1,0 +1,16 @@
+.OrganismDiv{
+    width: 920px;
+    height: 509px;
+    background-color: #FFFFFF;  
+    box-shadow: 0px 50px 50px -20px #35127A7F;
+    border-radius: 23px;
+    display: flex;
+}
+@media screen and (max-width: 1021px){
+    .OrganismDiv{
+        flex-direction: column;
+        width: 330px;
+        align-items: center;
+    }
+    
+}
