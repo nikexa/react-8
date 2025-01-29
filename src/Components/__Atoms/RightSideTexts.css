@@ -36,6 +36,9 @@
     margin-top: 5px;
     margin-bottom: 5px;    
 }
+.author:hover{
+    color: #F47B56;
+}
 @media screen and (max-width: 1021px){
     .MainText{
         font-family: Kumbh Sans;
